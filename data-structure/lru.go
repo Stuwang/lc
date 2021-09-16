@@ -34,7 +34,7 @@ func (this *LRUCache) removeLatest() *LinkNode {
 	return last
 }
 
-func Constructor(capacity int) LRUCache {
+func ConstructorLru(capacity int) LRUCache {
 	res := LRUCache{
 		Map:  make(map[int]*LinkNode),
 		Link: &LinkNode{},
