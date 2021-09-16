@@ -1,3 +1,5 @@
+package data_structure
+
 
 type LFUNode struct {
 	Prev  *LFUNode
